@@ -1,0 +1,115 @@
+body {
+    background-image: url(img/underground_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    margin: 0px 150px;
+}
+
+.logotext {
+    font-size: 40px;
+    color: white;
+    padding-right: 70px;
+}
+
+.logo {
+    padding-right: 10px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-right: 40px;
+    transition: color 0.3s linear;
+}
+
+.link:hover {
+    color: wheat;
+}
+
+.Contacts {
+    border-left: 1px solid white;
+    padding-left: 25px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.contlink {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.contlink:hover {
+    color: red;
+}
+
+#mainpage {
+    color: wheat;
+}
+
+#fagpage {
+    color: wheat;
+}
+
+#scriptspage {
+    color: wheat;
+}
+
+.Krnltext {
+    color: white;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.downloadform {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 840px;
+}
+
+.downloadform2 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 805px;
+}
+
+.downloadbt {
+    background-color: green;
+    color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 13px;
+}
+
+.downloadbt2 {
+    background-color: green;
+    color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 43px;
+}
+
+.downloadtext {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 100px;
+    line-height: 10px;
+}
+
+.fag {
+    color: white;
+}
