@@ -1,0 +1,110 @@
+body {
+    background-image: url(img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 200px;
+}
+
+.logotext {
+    font-size: 40px;
+    color: white;
+    padding-right: 650px;
+}
+
+.logo {
+    padding-right: 10px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-right: 40px;
+    transition: color 0.3s linear;
+}
+
+.link:hover {
+    color: rgb(112, 112, 112);
+}
+
+.Contacts {
+    border-left: 1px solid white;
+    padding-left: 25px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.contlink {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.contlink:hover {
+    color: rgb(112, 112, 112);
+}
+
+#mainpage {
+    color: rgb(112, 112, 112);
+}
+
+#fagpage {
+    color: rgb(112, 112, 112);
+}
+
+#scriptspage {
+    color: rgb(112, 112, 112);
+}
+
+.Krnltext {
+    color: white;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.krnlinfoborder {
+    border: 1px solid rgb(112, 112, 112);
+    margin-right: 600px;
+    margin-left: 600px;
+}
+
+.krnlinfo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    margin-left: 325px;
+    margin-top: 50px;
+}
+
+.krnlinfotext {
+    margin-right: 50px;
+}
+
+.featuretextmain {
+    color: white;
+    padding-top: 100px;
+}
+
+.krnlfeatureborder {
+    border: 1px solid rgb(112, 112, 112);
+    margin-right: 600px;
+    margin-left: 600px;
+}
+
+.featuretex {
+    margin-top: 50px;
+}
+
+.fag {
+    color: white;
+}
