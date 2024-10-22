@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="diagram"></div>
 </body>
 <script>
     let a = document.createElement('div');
@@ -14,5 +14,14 @@
     a.style.height = "200px";
     a.style.backgroundColor = "green";
     document.body.append(a);
+
+    let names = ["Москва", "Рим", "Париж"];
+    let population = ["8000000", "500000", "700000"];
+
+    let diagram = document.getElementById('diagram');
+
+    let elem2 = document.createElement('div');
+    elem2.innerText = names[1];
+    diagram.append(elem2)
 </script>
 </html>
