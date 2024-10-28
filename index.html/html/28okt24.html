@@ -22,6 +22,9 @@
 
     function moveZombie(){
         left = left + step;
+        if (left > 1000){
+            step = step*(-1);
+        }
         zombie.style.left = left + 'px';
     }
 
