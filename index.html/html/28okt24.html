@@ -14,7 +14,7 @@
     document.body.append(zombie)
 
     let left = 100;
-    let step = 2;
+    let step = 5;
 
     zombie.style.position = 'fixed';
     zombie.style.top = '100px';
@@ -24,9 +24,11 @@
         left = left + step;
         if (left > 1000){
             step = step*(-1);
+            zombie.style.transform = 'rotateY(180deg)';
         }
         if (left < 0){
             step = step*(-1);
+            zombie.style.transform = 'rotateY(180deg)';
         }
         zombie.style.left = left + 'px';
     }
