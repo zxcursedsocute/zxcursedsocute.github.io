@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #field{
+            width: 1080px;
+            height: 800px;
+            border: solid 1px;
+        }
+        img{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="field" onclick="createZombie(event)"> </div>
+</body>
+<script>
+    let field = document.getElementById('field');
+
+/*     function showCoord(){
+        console.log(event.clientX+':'+event.clientY)
+    } */
+
+    function createZombie(event){
+
+    console.log(event.clientX+':'+event.clientY)
+
+    let zombie = document.createElement('img');
+    zombie.src = '../media/zombie-29okt24.gif';
+    document.body.append(zombie)
+
+    let left = event.clientX;
+    let step = 5;
+
+    zombie.style.transform = 'rotateY(180deg)';
+    zombie.style.position = 'fixed';
+    zombie.style.top = event.clientY + 'px';
+    zombie.style.left = left + 'px';
+
+    function moveZombie(){
+        left = left + step;
+        if (left > 1000){
+            step = step*(-1);
+            zombie.style.transform = 'rotateY(0deg)';
+        }
+        if (left < 0){
+            step = step*(-1);
+            zombie.style.transform = 'rotateY(180deg)';
+        }
+        zombie.style.left = left + 'px';
+    }
+
+    setInterval(moveZombie,100);
+    }
+</script>
+</html>
