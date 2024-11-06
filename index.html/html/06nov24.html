@@ -12,6 +12,7 @@
     
 </body>
 <script>
+<script>
     for(let i = 1;i <101;i++){
     let a = document.createElement('div');
     a.style.width = "100px";
@@ -21,6 +22,14 @@
     a.style.fontSize = "20"
     a.innerHTML = i
     document.body.append(a);
+    for(let b = 1;b <10;b++){
+    let greencube = document.createElement('div');
+    greencube.style.width = "10px";
+    greencube.style.height = "10px";
+    greencube.style.backgroundColor = "green";
+    greencube.innerHTML = b
+    a.append(greencube);
+    }
     }
 </script>
 </html>
